@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# App DoIt 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um app onde você consegue gerenciar seus projetos, podendo criar projetos, concluir e apagar. Possui rotas autenticadas, modais, formulários de cadastro e login, skeletons, input de pesquisa. Totalmente estilzada com o Chakra UI.
 
-## Available Scripts
+URL: https://app-doit.vercel.app/
+OBS: Para que todas as rotas funcionem execute os comandos 3 e 4 abaixo.
 
-In the project directory, you can run:
+<img src='https://my-portfolio-kappa-jade.vercel.app/static/media/App-Doit.8a4197ca67fe29fa4722.png'/> 
 
-### `yarn start`
+Tecnologias aplicadas: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<li>React</li>
+<li>Typescript</li>
+<li>Javascript</li>
+<li>Rest Api</li>
+<li>Context</li>
+<li>React Router Dom</li>
+<li>React Hook Form</li>
+<li>Yup</li>
+<li>Axios</li>
+<li>Chakra UI</li>
+<li>Eslint</li>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>Inicializando o projeto</h2>
 
-### `yarn test`
+1) Faça o clone do repositório com o comando `git clone` no terminal !
+2) No terminal dentro do repositório do projeto instale as dependências do projeto com o comando `yarn` !
+3) Faça o clone do repositório do json server (https://github.com/IvanBorba/json-server-doit) com o comando `git clone` no terminal para que todas as requisições funcionem corretamente !
+4) Execute o comando `yarn start` no terminal do json server para inicializar o servidor na port 3333 !
+5) Execute o comando `yarn start` no terminal do repositório deste projeto !
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
